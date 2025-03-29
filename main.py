@@ -11,6 +11,6 @@ for i, row in data.iterrows():
    
    kit.sendwhatmsg_instantly(phone_no = str(row["Number"]), message = message, tab_close = True, wait_time = 2, close_time = 2, browser = "chrome")
    
-   
+   #to send on specific time use kit.sendwhatmes(...)
    
    
